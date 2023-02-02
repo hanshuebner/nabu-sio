@@ -2353,6 +2353,7 @@
     )
   )
 
+
   (junction (at 167.64 174.625) (diameter 0) (color 0 0 0 0)
     (uuid 139a5132-361f-4724-be9b-600f2d2f8c0d)
   )
@@ -3320,8 +3321,8 @@
   (symbol (lib_id "Connector_Generic:Conn_02x05_Odd_Even") (at 323.215 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 124337a5-5555-400f-9c16-3805b43b214b)
-    (property "Reference" "J2" (id 0) (at 324.485 103.505 0))
-    (property "Value" "Conn_02x05_Odd_Even" (id 1) (at 324.485 106.045 0))
+    (property "Reference" "J2" (id 0) (at 324.485 104.14 0))
+    (property "Value" "PORT A RS232" (id 1) (at 324.485 106.68 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal" (id 2) (at 323.215 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3529,7 +3530,7 @@
     (property "Reference" "IC1" (id 0) (at 217.9194 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "CTC-DIP-28" (id 1) (at 217.9194 50.8 0)
+    (property "Value" "Z80A CTC" (id 1) (at 217.9194 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_DIP:DIP-28_W15.24mm_LongPads" (id 2) (at 242.57 27.94 0)
@@ -4497,7 +4498,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c9976af9-d8c0-4fbc-a965-0fab478ccc50)
     (property "Reference" "J3" (id 0) (at 324.485 156.21 0))
-    (property "Value" "Conn_02x05_Odd_Even" (id 1) (at 324.485 158.75 0))
+    (property "Value" "PORT B RS232" (id 1) (at 324.485 158.75 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal" (id 2) (at 323.215 168.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4709,10 +4710,10 @@
   (symbol (lib_id "Zilog_Z80_Peripherals:SIO1-DIP-40") (at 208.28 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ef00d8f1-853d-4e7c-9780-fa343a73cb15)
-    (property "Reference" "IC2" (id 0) (at 217.9194 117.475 0)
+    (property "Reference" "IC2" (id 0) (at 217.9194 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SIO1-DIP-40" (id 1) (at 217.9194 120.015 0)
+    (property "Value" "Z80A SIO" (id 1) (at 217.9194 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_DIP:DIP-40_W15.24mm_LongPads" (id 2) (at 218.44 76.2 0)
@@ -5073,19 +5074,19 @@
       (reference "C19") (unit 1) (value "1µF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/2ecc2232-ba5b-4a4a-aa38-b74b0c1a1b6d"
-      (reference "IC1") (unit 1) (value "CTC-DIP-28") (footprint "Package_DIP:DIP-28_W15.24mm_LongPads")
+      (reference "IC1") (unit 1) (value "Z80A CTC") (footprint "Package_DIP:DIP-28_W15.24mm_LongPads")
     )
     (path "/ef00d8f1-853d-4e7c-9780-fa343a73cb15"
-      (reference "IC2") (unit 1) (value "SIO1-DIP-40") (footprint "Package_DIP:DIP-40_W15.24mm_LongPads")
+      (reference "IC2") (unit 1) (value "Z80A SIO") (footprint "Package_DIP:DIP-40_W15.24mm_LongPads")
     )
     (path "/b0249235-4bd0-4b35-86ae-b69361039425"
       (reference "J1") (unit 1) (value "NABU Extension Slot") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x30_P2.54mm_Vertical")
     )
     (path "/124337a5-5555-400f-9c16-3805b43b214b"
-      (reference "J2") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal")
+      (reference "J2") (unit 1) (value "PORT A RS232") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal")
     )
     (path "/c9976af9-d8c0-4fbc-a965-0fab478ccc50"
-      (reference "J3") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal")
+      (reference "J3") (unit 1) (value "PORT B RS232") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal")
     )
     (path "/8283e37a-d5af-41b2-a8d6-2f8dada0ec32"
       (reference "J4") (unit 1) (value "PORT A TTL") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal")
